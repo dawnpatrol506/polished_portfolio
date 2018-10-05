@@ -1,0 +1,9 @@
+body{
+    background-image: url(../images/qbkls.png);
+    background-repeat: repeat;
+}
+
+#side-nav-header{
+    font-size: 2em !important;
+    font-weight: 349;
+}
