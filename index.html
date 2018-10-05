@@ -11,35 +11,62 @@
 </head>
 
 <body>
-    <nav>
-        <div class="nav-wrapper blue-grey">
-            <a href="#" class="brand-logo white-text">Kevin Davis</a>
-            <ul class="right hide-on-large-only">
-                <li><a href='#'>About</a></li>
-                <li><a href='#'>Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container">
-        <ul class="sidenav sidenav-fixed blue-grey darken-1">
+    <header>
+        <nav class="top-nav blue-grey">
+            <a class="brand-logo hide-on-large-only">Kevin Davis</a>
+            <div class="container">
+                    <a href='#' data-target='nav-mobile' class="sidenav-trigger hide-on-large-only"><i class="material-icons">menu</i></a>
+                </div>
+        </nav>
+
+
+
+        <ul id="nav-mobile" class="sidenav sidenav-fixed blue-grey darken-1 white-text">
             <li class="logo">
                 <a id="side-nav-header" class="brand-logo white-text">Kevin Davis</a>
             </li>
             <li class="bold">
-                <a class="white-text" href="#">About</a>
+                <a class="white-text change-view" value="about" href="#">About</a>
             </li>
             <li class="bold">
-                <a class="white-text" href="#">Portfolio</a>
+                <a class="white-text change-view" value="portfolio" href="#">Portfolio</a>
             </li>
             <li class="bold">
-                <a class="white-text" href="#">Contact</a>
+                <a class="white-text change-view" value='contact' href="#">Contact</a>
             </li>
         </ul>
+    </header>
 
+
+
+
+    <div class="view-root container">
+        <div class="row">
+            <div class="card horizontal">
+                <div class="card-image">
+                    <img src="./assets/images/fam.jpg">
+                </div>
+                <div class="card-stacked">
+                    <div class="card-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laudantium assumenda debitis
+                            cumque molestias quia dolor libero, vitae aliquam nisi quo ex consectetur doloremque
+                            labore! Officia voluptatem odit repellendus eveniet.</p>
+                    </div>
+                    <div class="card-action">
+                        <ul>
+                            <li><a href="https://github.com/dawnpatrol506"><img id='img-github' src="./assets/images/github-box.png" /></a></li>
+                            <li><a href="https://linkedin.com/"><img id="img-linkedin" src="./assets/images/linkedin-box.png"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/javascript/views.js"></script>
 </body>
 
 </html>

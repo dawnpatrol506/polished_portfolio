@@ -7,3 +7,15 @@ body{
     font-size: 2em !important;
     font-weight: 349;
 }
+
+#about-pic{
+    max-width: 33%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    float: left;
+}
