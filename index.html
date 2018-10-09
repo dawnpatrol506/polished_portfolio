@@ -15,8 +15,10 @@
         <nav class="top-nav blue-grey">
             <a class="brand-logo hide-on-large-only">Kevin Davis</a>
             <div class="container">
-                    <a href='#' data-target='nav-mobile' class="sidenav-trigger hide-on-large-only"><i class="material-icons">menu</i></a>
-                </div>
+                <a href='#' data-target='nav-mobile' class="sidenav-trigger hide-on-large-only">
+                    <i class="material-icons">menu</i>
+                </a>
+            </div>
         </nav>
 
 
@@ -41,32 +43,97 @@
 
 
     <div class="view-root container">
-        <div class="row">
-            <div class="card horizontal">
+        <div class="row z-depth-3 blue-grey darken-2">
+            <h2 class="grey-text text-lighten-3 left-align">About Me</h2>
+        </div>
+        <div class="row about">
+            <div class="card horizontal z-depth-3">
                 <div class="card-image">
                     <img src="./assets/images/fam.jpg">
                 </div>
                 <div class="card-stacked">
-                    <div class="card-content">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laudantium assumenda debitis
-                            cumque molestias quia dolor libero, vitae aliquam nisi quo ex consectetur doloremque
-                            labore! Officia voluptatem odit repellendus eveniet.</p>
+                    <div class="card-content flow-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit laudantium assumenda debitis cumque
+                            molestias quia dolor libero, vitae aliquam nisi quo ex consectetur doloremque labore! Officia
+                            voluptatem odit repellendus eveniet.</p>
                     </div>
                     <div class="card-action">
                         <ul>
-                            <li><a href="https://github.com/dawnpatrol506"><img id='img-github' src="./assets/images/github-box.png" /></a></li>
-                            <li><a href="https://linkedin.com/"><img id="img-linkedin" src="./assets/images/linkedin-box.png"></a></li>
+                            <li>
+                                <a href="https://github.com/dawnpatrol506">
+                                    <img id='img-github' src="./assets/images/github-box.png" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://linkedin.com/">
+                                    <img id="img-linkedin" src="./assets/images/linkedin-box.png">
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="./assets/javascript/views.js"></script>
+
+        <div class="row portfolio">
+            <div class="row z-depth-3 blue-grey darken-2">
+                <h2 class="grey-text text-lighten-3 left-align">Portfolio</h2>
+            </div>
+            <div class="row portfolio blue-grey lighten-4">
+                <div class="card z-depth-3 col s12 m5 l5">
+                    <div class="card-content">
+                        <span class="card-title activator">Movies and Music
+                            <i class="material-icons right">expand_less</i>
+                        </span>
+                        <p>
+                            <a href="https://wherding.github.io/Project1">Visit Site</a>
+                        </p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title">Title
+                            <i class="material-icons right">expand_more</i>
+                        </span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum iste sit eligendi quis adipisci
+                            at, exercitationem excepturi magnam, debitis molestias est! Quos voluptatum odio nisi vitae facere
+                            recusandae totam veritatis.</p>
+                    </div>
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./assets/images/movies_and_music.PNG">
+                    </div>
+                </div>
+
+                <div class="card z-depth-3 col s12 m5 l5 offset-m1 offset-l1">
+                    <div class="card-content">
+                        <span class="card-title activator">Movies and Music
+                            <i class="material-icons right">expand_less</i>
+                        </span>
+                        <p>
+                            <a href="https://dawnpatrol506.github.io/Train_Activity_Basic/">Visit Site</a>
+                        </p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title">Title
+                            <i class="material-icons right">expand_more</i>
+                        </span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum iste sit eligendi quis adipisci
+                            at, exercitationem excepturi magnam, debitis molestias est! Quos voluptatum odio nisi vitae facere
+                            recusandae totam veritatis.</p>
+                    </div>
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="./assets/images/train_activity.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row contact">
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="./assets/javascript/views.js"></script>
 </body>
 
 </html>
